@@ -1,7 +1,10 @@
 .status-bar{
     display: flex;
+    
+    height: auto;
     width: 100%;
     justify-content: center;
+    
     padding: 5px 3px;
     
 }

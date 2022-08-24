@@ -7,10 +7,13 @@
 @import "components/screen-header.css";
 @import "screen.css/friends.css";
 @import "components/user-component.css";
-@import "chat.css";
+@import "chats.css";
 @import "screen.css/find.css";
 @import "screen.css/more.css";
 @import "components/icon-row.css";
+@import "components/alt-screen-header.css  ";
+@import "screen.css/settings.css";
+@import "screen.css/chat.css";
 body{
     color:#2e363e;
     font-family: 'Noto Sans KR', sans-serif;
@@ -30,4 +33,7 @@ body{
 }
 .main-screen{
     padding: 0px var(--horizontal-space);
+}
+a{
+    text-decoration-line: none;
 }
